@@ -1098,6 +1098,43 @@
 
 		}
 
+	.horizontal-mailchimp .mc-field-group,
+	.horizontal-mailchimp .clear {
+		display: inline-block;
+	}
+
+	.horizontal-mailchimp input {
+		display: block;
+		width: 100%;
+	}
+
+	.horizontal-mailchimp label {
+		display: block;
+		height: 1 px;
+		text-indent: -9999px;
+	}
+
+	.horizontal-mailchimp {
+		margin: 20px auto;
+		padding: 20px;
+		text-align: center;
+	}
+
+	@media only screen and (max-width: 768px) {
+
+		.horizontal-mailchimp .mc-field-group,
+		.horizontal-mailchimp .clear,
+		.horizontal-mailchimp input {
+			display: block;
+			width: 100%;
+		}
+
+		.horizontal-mailchimp .mc-field-group {
+			margin-bottom: 5px;
+		}
+
+	}
+
 /* Footer */
 
 	#footer {
